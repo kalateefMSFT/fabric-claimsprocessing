@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "c06eb35c-95eb-427f-93a8-70d3f5e85917",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "FreezerId",
+        "targetPropertyId": "6768604917566596711"
+      },
+      {
+        "sourceColumnName": "Model",
+        "targetPropertyId": "6768604917977617088"
+      },
+      {
+        "sourceColumnName": "minSafeTempC",
+        "targetPropertyId": "6768604916537304372"
+      },
+      {
+        "sourceColumnName": "StoreId",
+        "targetPropertyId": "6768604916300913222"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "ca6ea8e4-ad77-9ea3-4a81-c24f397af68c",
+      "sourceTableName": "freezer",
+      "sourceSchema": "dbo"
+    }
+  }
+}

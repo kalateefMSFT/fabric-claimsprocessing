@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "08f12a76-51b3-4fcf-9012-81747aefc2fc",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "StoreId",
+        "targetPropertyId": "6742458509613883458"
+      },
+      {
+        "sourceColumnName": "StoreName",
+        "targetPropertyId": "6742458511243897552"
+      },
+      {
+        "sourceColumnName": "City",
+        "targetPropertyId": "6742458510494867153"
+      },
+      {
+        "sourceColumnName": "Region",
+        "targetPropertyId": "6742458509921575738"
+      },
+      {
+        "sourceColumnName": "Latitude",
+        "targetPropertyId": "6742458510608058421"
+      },
+      {
+        "sourceColumnName": "Longitude",
+        "targetPropertyId": "6742458509438061442"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "ca6ea8e4-ad77-9ea3-4a81-c24f397af68c",
+      "sourceTableName": "dimstore",
+      "sourceSchema": "dbo"
+    }
+  }
+}

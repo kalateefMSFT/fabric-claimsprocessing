@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/overviews/1.0.0/schema.json",
+  "widgets": null,
+  "settings": {
+    "type": "customTime",
+    "interval": "OneMinute",
+    "aggregation": "Average"
+  }
+}

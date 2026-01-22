@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "6657904112941978726",
+  "name": "fact_rules_has_dim_vehicle",
+  "namespaceType": "Imported",
+  "source": {
+    "entityTypeId": "228321082286857"
+  },
+  "target": {
+    "entityTypeId": "185179788438934"
+  }
+}

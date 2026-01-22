@@ -98,7 +98,7 @@ table v_claims_summary_by_risk
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("ycaavbff4s7epcq5p3h2mhudtq-4tdfsl23hsxupfaenrryenlwyu.datawarehouse.fabric.microsoft.com", "LH_FY26INSAdventureWorks"),
+				    Source = Sql.Database("cbjhakaeu65uhjfcys3uzqf7qq-j6zvoxskeneelihqsv65sj6r2q.datawarehouse.fabric.microsoft.com", "ClaimsProcessingLH"),
 				    gold_v_claims_summary_by_risk = Source{[Schema="gold",Item="v_claims_summary_by_risk"]}[Data]
 				in
 				    gold_v_claims_summary_by_risk

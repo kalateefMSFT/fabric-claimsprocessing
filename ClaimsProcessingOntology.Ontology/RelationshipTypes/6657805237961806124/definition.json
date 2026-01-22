@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "6657805237961806124",
+  "name": "fact_claims_has_dim_date",
+  "namespaceType": "Imported",
+  "source": {
+    "entityTypeId": "210955572362769"
+  },
+  "target": {
+    "entityTypeId": "122973804462969"
+  }
+}

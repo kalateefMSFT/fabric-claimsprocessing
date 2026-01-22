@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "6657952449062109175",
+  "name": "fact_accident_severity_has_dim_risk",
+  "namespaceType": "Imported",
+  "source": {
+    "entityTypeId": "198084107950725"
+  },
+  "target": {
+    "entityTypeId": "166883102149009"
+  }
+}

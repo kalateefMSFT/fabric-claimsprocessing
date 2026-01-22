@@ -127,7 +127,7 @@ table fact_accident_severity
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("ycaavbff4s7epcq5p3h2mhudtq-4tdfsl23hsxupfaenrryenlwyu.datawarehouse.fabric.microsoft.com", "LH_FY26INSAdventureWorks"),
+				    Source = Sql.Database("cbjhakaeu65uhjfcys3uzqf7qq-j6zvoxskeneelihqsv65sj6r2q.datawarehouse.fabric.microsoft.com", "ClaimsProcessingLH"),
 				    gold_fact_accident_severity = Source{[Schema="gold",Item="fact_accident_severity"]}[Data]
 				in
 				    gold_fact_accident_severity

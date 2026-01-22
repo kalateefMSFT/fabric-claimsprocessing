@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "6657754168393475467",
+  "name": "fact_telematics_has_dim_location",
+  "namespaceType": "Imported",
+  "source": {
+    "entityTypeId": "241242152494901"
+  },
+  "target": {
+    "entityTypeId": "137027401154582"
+  }
+}

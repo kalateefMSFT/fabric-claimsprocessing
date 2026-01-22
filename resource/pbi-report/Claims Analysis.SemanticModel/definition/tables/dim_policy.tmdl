@@ -104,12 +104,12 @@ table dim_policy
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("ycaavbff4s7epcq5p3h2mhudtq-4tdfsl23hsxupfaenrryenlwyu.datawarehouse.fabric.microsoft.com", "LH_FY26INSAdventureWorks"),
-				    gold_dim_policy = Source{[Schema="gold",Item="dim_policy"]}[Data]
+				  Source = Sql.Database("cbjhakaeu65uhjfcys3uzqf7qq-j6zvoxskeneelihqsv65sj6r2q.datawarehouse.fabric.microsoft.com", "ClaimsProcessingLH"),
+				  #"Navigation 1" = Source{[Schema = "gold", Item = "dim_policy"]}[Data]
 				in
-				    gold_dim_policy
+				  #"Navigation 1"
 
 	annotation PBI_NavigationStepName = Navigation
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
 

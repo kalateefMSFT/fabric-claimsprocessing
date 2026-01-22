@@ -64,7 +64,7 @@ table dim_location
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("ycaavbff4s7epcq5p3h2mhudtq-4tdfsl23hsxupfaenrryenlwyu.datawarehouse.fabric.microsoft.com", "LH_FY26INSAdventureWorks"),
+				    Source = Sql.Database("cbjhakaeu65uhjfcys3uzqf7qq-j6zvoxskeneelihqsv65sj6r2q.datawarehouse.fabric.microsoft.com", "ClaimsProcessingLH"),
 				    gold_dim_location = Source{[Schema="gold",Item="dim_location"]}[Data],
 				    #"Filtered Rows" = Table.SelectRows(gold_dim_location, each [borough] <> null and [borough] <> "")
 				in
